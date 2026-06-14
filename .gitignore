@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+build/
+.output/
+apps/web/dist/
+
+# Cloudflare / Wrangler
+.wrangler/
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+
+# Drizzle local
+*.sqlite
+*.sqlite3
+.d1/
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+*.import.sql
+import.sql
+
+# Editor / OS
+.claude/
+.DS_Store
+*.log
